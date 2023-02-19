@@ -1,18 +1,19 @@
-# Feature: Login
-#  Scenario: Valid bilgiler ile logim
-#    Given Belirtilen URL'e gidilir.
-#    When Valid bilgiler ile ilgili inputlar doldurulur.
-#    Then Giriş kontrolü teyit edilir.
-#
-#  Scenario: Invalid bilgiler ile login
-#  Scenario: Error mesajları check et
-#  Scenario: Şifremi unuttum seçeneği kontrolü
-
+@google_search
 Feature: ilk feature file
+
+  @iphone
   Scenario: TC01_google_iphone_arama
     Given kullanici google gider
     When kullanici iphone için arama yapar
     Then sonuclarda iphone oldugunu dogrular
+    Then close the application
+
+    @tesla
+  Scenario: TC02_google_tesla_arama
+    Given kullanici google gider
+    When kullanici tesla için arama yapar
+    Then sonuclarda tesla oldugunu dogrular
+    Then close the application
 
 #  1. Her feature file, Feature: kelimesi ile başlamak zorundadır
 #  2. Her bir file da, yalnız bir Feature: kullanılabilir
