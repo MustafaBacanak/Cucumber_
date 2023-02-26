@@ -1,4 +1,3 @@
-
 @google_search
 Feature: ilk feature file
   Background: Google_sayfasina_git
@@ -9,12 +8,12 @@ Feature: ilk feature file
     When kullanici iphone için arama yapar
     Then sonuclarda iphone oldugunu dogrular
     Then close the application
+
   @tesla
   Scenario: TC02_google_tesla_arama
     When kullanici tesla için arama yapar
     Then sonuclarda tesla oldugunu dogrular
     Then close the application
-
 
 #  1. Her feature file, Feature: kelimesi ile baslamak zorundadir
 #  2. Her bir file da, yanliz bit Feature: kullanilabilir
@@ -29,3 +28,6 @@ Feature: ilk feature file
 #  9. Belirli Scenario lari calistirmak icin cucumber tags ler kullanilir
 #  tag ler Fetuature, Scenario, Scerio Outline, Examples kelimeleri ile birlikte kullanilabilir
 #  10. Background: Her bir Scenario kelimesinden ONCE tek bir sefer calisir
+#  11. dryRun=false -> dryRun yokmus gibi normal sekilde calisir. Yani tum adimlari tek tetk browserda acar.
+#      dryRun=true  -> Yeni bir STEP(adim) eklendiginde sadece tanimlanmamis step definitions lari olusturmak icin kullanilir
+#      kullanilma sebebi zamandan tasarrufdur.
