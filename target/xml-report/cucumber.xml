@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.556" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="US013_WebDriverUniversity negatif login test" name="TC18 Negatif login testi yapip ilk sayfaya donebilmeli" time="0.095">
+<testsuite name="Cucumber" time="0.685" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="excel_login_feature" name="TC01_musteri_giris_testi" time="0.077">
 <failure/>
 <system-out><![CDATA[
-Given kullanici "wdu_url" ana sayfasinda....................................passed
-Then kullanici loginPortal'a kadar asagi iner...............................passed
-And kullanici loginPortal'a tiklar..........................................passed
-And kullanici diger window a gecer..........................................passed
-And username kutusuna deger yazar...........................................passed
-And password kutusuna deger yazar...........................................passed
-Then login butonuna click yapar.............................................passed
-And popUp'ta cikan yazinin validation failed oldugunu test eder.............undefined
-Then OK diyerek popUp'i kapatir.............................................skipped
-And ilk sayfaya geri doner..................................................skipped
-Then ilk sayfaya donuldugunu test eder......................................skipped
-And acilan tum sayfalari kapatir............................................skipped
+Given kullanici "customer_info" bilgileri ile giris yapar...................undefined
 ]]></system-out>
 </testcase>
 </testsuite>
