@@ -8,7 +8,7 @@ Feature: hooks_test
 
   Scenario: TC01_google_iphone_arama
     When kullanici "iphone" için arama yapar
-    Then sonuclarda "teapot" oldugunu dogrular
+    Then sonuclarda "iphone" oldugunu dogrular
     Then close the application
 
   Scenario: TC02_google_tesla_arama

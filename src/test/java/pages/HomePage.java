@@ -11,4 +11,8 @@ public class HomePage {
     }
 
     @FindBy ( css = "a[class='btn btn-primary btn-sm']") public WebElement bluerentalLogin;
+    @FindBy(id = "dropdown-basic-button") public WebElement userID;
+    @FindBy(xpath = "//a[text()='Logout']") public WebElement logOutLink;
+    @FindBy(xpath = "//button[contains(text(),'OK')]") public WebElement OK;
+
 }
