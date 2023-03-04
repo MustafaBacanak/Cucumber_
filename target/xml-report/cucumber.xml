@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="79.873" tests="5" skipped="0" failures="0" errors="0">
-<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.1" time="19.967">
+<testsuite name="Cucumber" time="121.648" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.1" time="26.971">
 <system-out><![CDATA[
-Given kullanici "https://editor.datatables.net/" gider......................passed
-When kullanici new butonuna tiklar..........................................passed
-And kullanici first name "john" girer.......................................passed
-And kullanici last name "walker" girer......................................passed
-And kullanici positions "SDET" girer........................................passed
-And kullanici office "ISTANBUL" girer.......................................passed
-And kullanici extension "345" girer.........................................passed
-And kullanici start_date "2023-03-01" girer.................................passed
-And kullanici salary "100000" girer.........................................passed
-And kullanici create buttonuna basar........................................passed
-When kullanici firstname ile "john" arar....................................passed
-Then firstname "john" in olustugunu test et.................................passed
-And close the application...................................................passed
+Given kullanici google gider................................................passed
+When kullanici "iphone" icin arama yapar....................................passed
+Then sonuclarda "iphone" oldugunu dogrular..................................passed
+Then close the application..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.2" time="19.714">
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.2" time="24.38">
 <system-out><![CDATA[
-Given kullanici "https://editor.datatables.net/" gider......................passed
-When kullanici new butonuna tiklar..........................................passed
-And kullanici first name "zeynep" girer.....................................passed
-And kullanici last name "black" girer.......................................passed
-And kullanici positions "developer" girer...................................passed
-And kullanici office "ankara" girer.........................................passed
-And kullanici extension "3412" girer........................................passed
+Given kullanici google gider................................................passed
+When kullanici "Tesla" icin arama yapar.....................................passed
+Then sonuclarda "Tesla" oldugunu dogrular...................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.3" time="22.284">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "cat" icin arama yapar.......................................passed
+Then sonuclarda "cat" oldugunu dogrular.....................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.4" time="47.141">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "dog" icin arama yapar.......................................passed
+Then sonuclarda "dog" oldugunu dogrular.....................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
+girer........................................passed
 And kullanici start_date "2023-03-04" girer.................................passed
 And kullanici salary "800000" girer.........................................passed
 And kullanici create buttonuna basar........................................passed
@@ -34,7 +42,7 @@ Then firstname "zeynep" in olustugunu test et...............................pass
 And close the application...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.3" time="13.193">
+<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.3" time="15.438">
 <system-out><![CDATA[
 Given kullanici "https://editor.datatables.net/" gider......................passed
 When kullanici new butonuna tiklar..........................................passed
@@ -51,7 +59,7 @@ Then firstname "ali" in olustugunu test et..................................pass
 And close the application...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.4" time="13.76">
+<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.4" time="8.282">
 <system-out><![CDATA[
 Given kullanici "https://editor.datatables.net/" gider......................passed
 When kullanici new butonuna tiklar..........................................passed
@@ -68,7 +76,7 @@ Then firstname "feyza" in olustugunu test et................................pass
 And close the application...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.5" time="12.374">
+<testcase classname="personel_olusturma" name="TC01_personel_olustur - personel_bilgileri - Example #1.5" time="8.571">
 <system-out><![CDATA[
 Given kullanici "https://editor.datatables.net/" gider......................passed
 When kullanici new butonuna tiklar..........................................passed
