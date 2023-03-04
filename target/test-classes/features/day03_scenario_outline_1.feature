@@ -5,7 +5,7 @@ Feature: arama_feature_2
 
   @regression
     Scenario Outline: arama_testi
-      When kullanici "<product>" için arama yapar
+      When kullanici "<product>" icin arama yapar
       Then sonuclarda "<product>" oldugunu dogrular
       Then close the application
 

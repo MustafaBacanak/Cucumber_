@@ -6,12 +6,12 @@
 
     @smoke
       Scenario: TC01_google_iphone_arama
-        When kullanici "iphone" için arama yapar
+        When kullanici "iphone" icin arama yapar
         Then sonuclarda "iphone" oldugunu dogrular
         Then close the application
 
     @smoke
     Scenario: TC02_google_tesla_arama
-      When kullanici "tesla" için arama yapar
+      When kullanici "tesla" icin arama yapar
       Then sonuclarda "tesla" oldugunu dogrular
       Then close the application
