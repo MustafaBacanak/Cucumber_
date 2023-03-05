@@ -7,13 +7,14 @@ Feature: hooks_test
     Given kullanici google gider
 
   Scenario: TC01_google_iphone_arama
-    When kullanici "iphone" için arama yapar
+    When kullanici "iphone" icin arama yapar
     Then sonuclarda "iphone" oldugunu dogrular
     Then close the application
 
   Scenario: TC02_google_tesla_arama
-    When kullanici "tesla" için arama yapar
+    When kullanici "tesla" icin arama yapar
     Then sonuclarda "toros" oldugunu dogrular
+    Then ekran goruntusu al
     Then close the application
 
 
