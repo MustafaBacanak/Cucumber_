@@ -12,6 +12,7 @@ C:\Users\bacan\IdeaProjects\batch103Cucumber\src\test\java\pages\GooglePage.java
 C:\Users\bacan\IdeaProjects\batch103Cucumber\src\test\java\runners\TestRunner.java
 C:\Users\bacan\IdeaProjects\batch103Cucumber\src\test\java\stepdefinitions\WebDriverUniversityStepDefinitions.java
 C:\Users\bacan\IdeaProjects\batch103Cucumber\src\test\java\stepdefinitions\GoogleStepDefinitions.java
+C:\Users\bacan\IdeaProjects\batch103Cucumber\src\test\java\stepdefinitions\GenelStepDefinition.java
 C:\Users\bacan\IdeaProjects\batch103Cucumber\src\test\java\hooks\Hooks.java
 C:\Users\bacan\IdeaProjects\batch103Cucumber\src\test\java\pages\WebDriverUniversityPage.java
 C:\Users\bacan\IdeaProjects\batch103Cucumber\src\test\java\runners\FailedRunner.java
